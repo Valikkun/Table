@@ -1,0 +1,50 @@
+table {
+	cursor: pointer;
+}
+
+.page-button {
+	width: 50px;
+	margin-top: 5px;
+}
+.form-control {
+	width: 250px;
+}
+.list-inline {
+	margin-left: 5px;
+}
+
+.load-button {
+	margin: 5px;
+}
+
+.tr.selected {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.main-form {
+	width: 350px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+.main-form button {
+	margin-top: 5px;
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url("30.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.failure-text {
+	text-align: center;
+	background-color: red;
+}
+
