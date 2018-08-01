@@ -9,13 +9,13 @@ import './main.css'
 
 import reducers from 'reducers'
 
-import Table from 'components/Table'
+import App from 'components/App'
 
 const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)))
 
 ReactDOM.render(
 	<Provider store={store}>
-		<Table />
+		<App />
 	</Provider>,
 	document.getElementById('root')
 );
