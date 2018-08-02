@@ -6,47 +6,48 @@ mark {
 	background-color: yellow;
 }
 
-.page-button {
-	width: 50px;
-	margin-top: 5px;
-}
-.form-control {
-	width: 250px;
-}
-.list-inline {
-	margin-left: 5px;
+.window {
+	overflow-x: auto; 
 }
 
-.load-button {
+.list-inline, .input-group{
 	margin: 5px;
+}
+
+.description {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+}
+
+.description.top {
+	top: 0;
+	bottom: auto;
+}
+
+.description li {
+	margin: 5px;
+	padding: 5px; 
+}
+
+.page-button {
+	width: 50px;
 }
 
 .tr.selected {
 	background-color: rgba(0, 0, 0, 0.075);
 }
 
-.main-form {
-	width: 350px;
-	position: fixed;
-	top: 10px;
-	left: 10px;
-}
-
-.main-form button {
-	margin-top: 5px;
-}
-
-.main__content {
-	position: relative;
-}
-
 .preloader {
-	position: absolute;
-	width: 300px;
-	height: 20px;
-	top: 250px;
-	left: 50%;
-    transform: translateX(-50%);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background-image: url("30.gif");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -55,5 +56,7 @@ mark {
 .failure-text {
 	text-align: center;
 	background-color: red;
+	border-radius: 15px;
+	color: white;
 }
 
